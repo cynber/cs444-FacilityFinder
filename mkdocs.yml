@@ -1,1 +1,72 @@
-site_name: My Docs
+site_name: Facility Finder
+repo_url: https://github.com/cynber/cs444-FacilityFinder
+repo_name: cynber/cs444-FacilityFinder
+
+# copyright: Copyright &copy; PLACEHOLDER
+  # uncomment and change to add a copyright message
+
+plugins:
+  - search
+  - blog:
+      post_readtime: true
+      archive: false
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+  - Guides:
+    - Blog Setup: ./About/blog-setup-config.md
+    - Make a Blog Post: ./About/blog-make-post.md
+    - Site Configuration: ./About/config-guide.md
+    - Site Setup: ./About/setup-guide.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/cynber/cs444-FacilityFinder
+    # - icon: fontawesome/brands/youtube 
+    #   link: https://example.com
+    # - icon: fontawesome/brands/mastodon 
+    #   link: https://example.com
+    # - icon: fontawesome/brands/instagram 
+    #   link: https://example.com
+  generator: true  # set to false to hide the 'Generated with MkDocs' footer
