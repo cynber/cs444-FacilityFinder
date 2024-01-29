@@ -1,4 +1,6 @@
 site_name: Facility Finder
+site_description: |
+  This is the 'Facility Finder' project website for CPSC 444.
 repo_url: https://github.com/cynber/cs444-FacilityFinder
 repo_name: cynber/cs444-FacilityFinder
 
@@ -7,9 +9,18 @@ repo_name: cynber/cs444-FacilityFinder
 
 plugins:
   - search
+  # - social:
+  #     enabled: !ENV [CI, false]
   - blog:
       post_readtime: true
       archive: false
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 nav:
   - Home: index.md
@@ -54,6 +65,7 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - search.suggest
     - search.highlight
   icon:
@@ -63,10 +75,13 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/cynber/cs444-FacilityFinder
+    - icon: simple/rss
+      link: /feed_rss_created.xml
+      name: RSS
     # - icon: fontawesome/brands/youtube 
     #   link: https://example.com
     # - icon: fontawesome/brands/mastodon 
     #   link: https://example.com
     # - icon: fontawesome/brands/instagram 
     #   link: https://example.com
-  generator: true  # set to false to hide the 'Generated with MkDocs' footer
+  generator: false  # set to false to hide the 'Generated with MkDocs' footer
