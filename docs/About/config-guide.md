@@ -23,3 +23,14 @@ When editing the project locally, you can use the following CLI commands:
 See the project repository to see how this project was configured.
 
 ## Unique configuration changes
+
+- To be added
+
+
+
+# Credits
+
+Created using [MkDocs-material](https://github.com/squidfunk/mkdocs-material)
+
+**Images**:
+- [Compass Image - NOAA Central Library Historical Collections](https://commons.wikimedia.org/wiki/File:Compass_-_Book_jacket_of_%22A_Treatise_on_Navigation_and_Nautical_Astronomy.%22.jpg)
