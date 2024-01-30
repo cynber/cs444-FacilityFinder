@@ -27,8 +27,8 @@ nav:
   - Blog:
     - blog/index.md
   - Guides:
-    - Blog Setup: ./About/blog-setup-config.md
     - Make a Blog Post: ./About/blog-make-post.md
+    - Blog Setup: ./About/blog-setup-config.md
     - Site Configuration: ./About/config-guide.md
     - Site Setup: ./About/setup-guide.md
 
