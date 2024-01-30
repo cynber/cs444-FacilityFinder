@@ -31,6 +31,7 @@ nav:
     - Blog Setup: ./About/blog-setup-config.md
     - Site Configuration: ./About/config-guide.md
     - Site Setup: ./About/setup-guide.md
+    - Credits: ./About/credits.md
 
 
 markdown_extensions:
