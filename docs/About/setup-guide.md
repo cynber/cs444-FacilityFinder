@@ -22,3 +22,24 @@
 5. Go to the 'Settings' tab in your repository and scroll down to the 'GitHub Pages' section. Change the 'Source' to  `Deploy from a branch`, and then set 'Branch' to `gh-pages` and click 'Save'. 
 6. After it finishes saving (and possibly building again), you should see a link to your website, either at the top of the 'GitHub Pages' section or on the homepage of the repo under 'Deployments'. It likely will follow the format: `https://<username>.github.io/<repository-name>/`. If you don't see it, wait a few minutes and refresh the page.
 
+
+
+## Other setup
+
+As this site is using a few extra plugins, you'll need to install them
+
+`pip install mkdocs-glightbox`
+
+    - this is a lightbox plugin for images
+
+<!-- `pip install "mkdocs-material[imaging]"`
+
+        # Windows installation is failing, skipping for now
+
+    - this is a plugin for resizing images and generating cards for social media -->
+
+`pip install mkdocs-rss-plugin`
+
+    - this is a plugin for generating an RSS feed for the blog
+
+You will also need to install 

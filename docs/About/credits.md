@@ -4,4 +4,4 @@ This project was made using [MkDocs Material](https://squidfunk.github.io/mkdocs
 
 Images:
 
-- [Penguin - North pole icons created by Backwoods - Flaticon](https://www.flaticon.com/free-icons/north-pole)
+- [Penguin icons created by Vectors Market - Flaticon](https://www.flaticon.com/free-icons/penguin)

@@ -9,8 +9,8 @@ repo_name: cynber/cs444-FacilityFinder
 
 plugins:
   - search
-  # - social:
-  #     enabled: !ENV [CI, false]
+  - glightbox
+  # - social      # windows installation is failing, disable for now
   - blog:
       post_readtime: true
       archive: false
@@ -38,6 +38,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
