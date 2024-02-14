@@ -68,17 +68,19 @@ After conducting a field study, we have revised the task examples to better refl
 
     **Revised Task Example 3: Marie**
 
-    PLACEHOLDER TEXT
+    Marie is a new teaching staff member at UBC and requires a wheelchair to move across campus. She has not had an orientation of the buildings she is teaching in and is not familiar with where facilities are located. She needs to find a washroom between her classes that is wheelchair accessible. She also wants to find a washroom that is close to her next class but worries about washroom availability with many students also using this time to use the restroom. While on her way to her next class, she happens to find a suitable wheelchair accessible washroom in a quiet area. She has another wheelchair user friend who often has similar difficulty in finding washrooms, so she wants to share information about this washroom with her friend so they can also access it in the future.
 
 <br>
 
 **Justification:**
 
-After completing the field study, we reevaluated our task examples. In particular, we added further detail to the Karen task example and reoriented our Jeffrey task example towards a new direction.  
+After completing the field study, we reevaluated our task examples. In particular, we added further detail to the Karen task example, reoriented our Jeffrey task example towards a new direction, and added a new requirement to the Marie task example. 
 
 For the Karen task example, our original example ended when Karen located a suitable building. Following our field study results, we found that locating washrooms after entering buildings was just as important as finding a suitable building. As such, we adjusted our Karen task example to add further detail on what happens after she enters a building, and the strategies she might employ to locate a washroom.  
 
-Our Jeffrey task example originally focused on a parent requiring changing tables to care for their child. During our field study however, we had difficulty acquiring data from parents with young children. While changing tables are an important amenity that can be incorporated as a filter option in our future prototypes, for now will focus on the data we do have access to. We decided to reorient our task example to focus on an individual seeking gender-neutral washrooms as this was an important topic that we came across in our field studies. We adjusted the task example to replace known washrooms with changing tables to known gender-neutral washrooms, a situation we saw in one of our field study interviews.  
+Our Jeffrey task example originally focused on a parent requiring changing tables to care for their child. During our field study however, we had difficulty acquiring data from parents with young children. While changing tables are an important amenity that can be incorporated as a filter option in our future prototypes, for now we will focus on the data we do have access to. We decided to reorient our task example to focus on an individual seeking gender-neutral washrooms as this was an important topic that we came across in our field studies. We adjusted the task example to replace known washrooms with changing tables to known gender-neutral washrooms, a situation we saw in one of our field study interviews. 
+
+The premise of our Marie task example is mostly unchanged. Marie is still a wheelchair user who requires an accessible washroom, but we have now added the new requirement of notifying her friend after she finds a suitable washroom. During our field study, we noticed a theme of external accessibility tools often containing outdated info. Users with specific needs often rely on word of mouth among the community in order to find suitable bathrooms. To combine these findings, we added the requirement of providing relevant information to others to allow users to generate up-to-date public information.   
 
 
 
@@ -91,16 +93,56 @@ Our Jeffrey task example originally focused on a parent requiring changing table
 
 ## 2a. Next Steps
 
+Based on our observations and interview findings, participants consistently emphasized the importance of accessing live data about washrooms, particularly details related to cleanliness, amenities, and accessibility features, when deciding on a restroom. Moving forward, our focus for developing low-fidelity prototypes will center on aiding users in locating buildings with washrooms. Our research revealed that many participants already employ strategies to find a restroom once inside a building. 
 
-PLACEHOLDER TEXT
+Moreover, participants highlighted the inadequacy of information on various external apps, citing outdated content. In response, we aim to explore methods that enable users to provide verifiable and updated information regarding washroom conditions. To incentivize users to share this information, we are working on creating a positive and enjoyable experience, such as including a reward system that grants users points for their contributions. 
 
 
 <br><br>
 
 ## 2c. Prioritized List of Requirements
 
-PLACEHOLDER TEXT
+After conducting our field study, we have identified a few requirements that we would like to prioritize. These requirements will be organized into `absolutely must include`, `should include`, `could include`, `could exclude`. We will also organize the different user groups, into the same four categories.
 
+<br>
+
+**Requirements**
+
+=== "Absolutely must include"
+
+    PLACEHOLDER TEXT a
+
+=== "Should include"
+
+    PLACEHOLDER TEXT b
+
+=== "Could include"
+
+    PLACEHOLDER TEXT asdfasdf
+
+=== "Could exclude"
+
+    PLACEHOLDER TEXT asdfaerfadadraergfdrxfgerdfgx
+
+<br>
+
+**User Groups**
+
+=== "Absolutely must include"
+
+    PLACEHOLDER TEXT
+
+=== "Should include"
+
+    PLACEHOLDER TEXT
+
+=== "Could include"
+
+    PLACEHOLDER TEXT
+
+=== "Could exclude"
+
+    PLACEHOLDER TEXT
 
 
 <br><br>
