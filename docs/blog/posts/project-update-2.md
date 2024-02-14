@@ -106,43 +106,53 @@ After conducting our field study, we have identified a few requirements that we 
 
 <br>
 
-**Requirements**
+### Requirements
 
 === "Absolutely must include"
 
-    PLACEHOLDER TEXT a
+- filtering for washroom type (mens, womens, gender-neutral) 
+- reporting the distance from current location     
 
 === "Should include"
 
-    PLACEHOLDER TEXT b
+- filtering for distance from current location
+- the ability for users to update information on cleanliness and busy times
+- reporting the presence of a sink and mirrors, and user inputted data on cleanliness and busy times
 
 === "Could include"
 
-    PLACEHOLDER TEXT asdfasdf
+- filtering for the presence of a sink and mirrors, and user inputted data on cleanliness and busy times
+- reporting the presence of menstrual products and toilet paper, and data on the number of stalls and urinals
 
 === "Could exclude"
 
-    PLACEHOLDER TEXT asdfaerfadadraergfdrxfgerdfgx
+- the ability for users to upload photos and add comments
 
 <br>
 
-**User Groups**
+### User Groups
+
+While all user groups will benefit from the application, some user groups expressed that they did not have specific requirements as most washrooms on campus are already suitable. As such, with the limited research time that we have, we chose to prioritize a few specific user groups to ensure that we can meet every user's needs. 
 
 === "Absolutely must include"
 
-    PLACEHOLDER TEXT
+- Users that are familiar with the UBC Vancouver campus
+- Users that are unfamiliar with the UBC Vancouver campus
 
 === "Should include"
 
-    PLACEHOLDER TEXT
+- Users with mobility impairments and other accessibility needs, such as wheelchair users, users with visual impairments, and Deaf users
+- Users looking for gender-neutral washrooms
 
 === "Could include"
 
-    PLACEHOLDER TEXT
+- Users with children, who require changing tables
+- Users who require menstrual products
+- Users who require sharps disposal containers
 
 === "Could exclude"
 
-    PLACEHOLDER TEXT
+- Users with limited, or no specific requirements
 
 
 <br><br>
@@ -174,15 +184,15 @@ Description:
 
 ![App Design Map Page](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_3.png){ align=left width=210px }
 
-<figcaption>Potential design for the mobile application.</figcaption>
+<figcaption>Collage design for the mobile application.</figcaption>
 </figure>
 
 
 PROS:
 
   - The filtering system is easy to use and understand.
-  - The live updates of the filtering results are helpful for users who are in a hurry.
-  - The map is easily accessible from most pages, making it easy for users to find their way to the washrooms.
+  - The stories at the top of the screen are helpful for users who are in a hurry.
+  - The map is accessible from most pages, making it easy for users to find their way to the washrooms.
 
 CONS:
 
@@ -203,61 +213,90 @@ Description:
 
 ![Design of Interactive Display Board](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_4.png){ align=center width=500px } 
 
-<figcaption>Potential design for the interactive display board.</figcaption>
+<figcaption>Drawing design for the interactive display board.</figcaption>
 </figure>
 
 PROS:
 
-  - 
+  - Such a board could be adapted to account for some accessibility needs, such as by using voice commands, providing audio and visual cues, etc.
+  - There is a small learning curve, as such boards are used in many public spaces.
+  - The large screen provides enough space to display a lot of information at once, and incorporate other features such as filtering
 
 CONS:
 
--  
+  - There are high costs associated with the installation and maintenance of such a board.
+  - The board may not be accessible to all users, such as those with limited vision or mobility impairments.  
 
 <br>
 
-**Design 3: Wearable Device App**
+**Design 3: AR Wayfinding App**
 
 Description:
 
--  
+  - This app would allow the user to hold up their phone camera, and see the path to the nearest washroom overlaid on the camera view. The app would also have the option to view a map of the campus with the locations of the washroom marked, and to filter the washrooms based on the user's needs.
 
 
 <figure markdown="span"  >
 
-![Design of the Wearable Device App](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_5.png){ align=center width=500px } 
+![Design of the AR Wayfinding App](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_5.png){ align=center width=500px } 
 
-<figcaption>Potential design for the wearable device app.</figcaption>
+<figcaption>Drawing design for the AR wayfinding app.</figcaption>
 </figure>
 
 PROS:
 
-  - 
+  - This is a visual and interactive way to find washrooms, which may be helpful for users who are not familiar with the campus layout. It will show the exact path to the washroom, including inside of buildings.
+  - Audio could be incorporated to provide directions for users with visual impairments.
 
 CONS:
 
--  
+  -  Requires the user to hold up their phone for the entire duration of the walk to the washroom, which may be inconvenient for some users.
 
 <br>
 
-**Design 4: AR Wayfinding App**
+**Design 4: Haptics Wearable Tool**
+
+Description:
+
+  - This design is a wearable tool that uses haptic feedback to guide the user to the nearest washroom. The tool would vibrate when the user is facing the correct direction, and the vibrations would get stronger as the user gets closer to the washroom. The tool can also use the small screen of a smartwatch to display the distance to the washroom and other relevant information.
 
 <figure markdown="span"  >
 
-![Design of AR Wayfinding App](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_6.png){ align=center width=500px } 
+![Design of Haptics Wearable Tool](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_6.png){ align=center width=500px } 
 
-<figcaption>Potential design for the AR wayfinding app.</figcaption>
+<figcaption>Drawing design for the haptics wearable tool.</figcaption>
 </figure>
 
 PROS:
 
-  - 
+  - This tool can be used by users with visual impairments, as it does not rely on visual cues.
+  - This tool can be used without needing a screen, which is helpful for those holding items, using a cane, pushing a stroller, or walking in cold environments.
 
 CONS:
 
--  
+-  This tool will have a steep learning curve, as it is not a common tool.
+-  The minimal visual information may be annoying for users that are used to seeing a map or other visual information.
 
 <br>
+
+<!-- **Design 5: Direction Cube**
+
+<figure markdown="span"  >
+
+![Design of Haptics Wearable Tool](../../assets/img/blog/posts/project-update-2/cpsc444-MII-B2_6.png){ align=center width=500px } 
+
+<figcaption>Potential design for the haptics wearable tool.</figcaption>
+</figure>
+
+PROS:
+  - Tactile & interactive (accounts for blind, and ppl who need/want fidgets) 
+
+CONS:
+
+   - Needs to be held in hand 
+   - Likely has to be preprogrammed with features 
+
+<br> -->
 
 
 
