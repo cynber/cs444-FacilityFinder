@@ -11,7 +11,7 @@ categories:
 
 date: 2024-02-29
 
-draft: false
+draft: true
 
 slug: project-update-3
 
@@ -74,6 +74,6 @@ PLACEHOLDER TODO: Add additional information about prototype
 
 PLACEHOLDER TODO: Add cognitive walkthrough report
 
-## 3e. Proposed Goals if Experiment
+## 3e. Proposed Goals of Experiment
 
 PLACEHOLDER TODO: Add proposed goals of experiment
