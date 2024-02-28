@@ -11,7 +11,7 @@ categories:
 
 date: 2024-02-29
 
-draft: true
+draft: false
 
 slug: project-update-3
 
