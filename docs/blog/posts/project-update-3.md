@@ -77,9 +77,9 @@ PLACEHOLDER TODO: Add low-fidelity prototype demonstration
 
 ### **Prototype Justification**
 
-The chosen design of a mobile app should support all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
+The chosen design of a mobile app supports all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Furthermore, apps have built-in update mechanism through the app stores. THus, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices. Additionally, since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
 
-This design also accounts for individual user preferences for washroom features and amenities and, it takes measures to categorize them for ease of use. Additionally, since a mobile apps have a built-in update mechanism through the app stores, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices.
+As per our study findings, users all have different washroom needs and preferences. This design accounts for individual user preferences by allowing for detailed search and filtering. Also, it takes measures to categorize them for ease of use. Moreover, our study data found that maintaining an up-to-date source of information was a pain point for users who have more specific needs (such as gender neutral washrooms). Hence, our design focuses on the adding and udpating of washroom information as well.
 
 <br> 
 
@@ -89,17 +89,23 @@ For this stage, while we considered exploring both breadth and depth of the desi
 
 **Design Breadth:**
 
-- Wireframes for all key features have been designed.
-- However, some less crucial pages such as the profile page were omitted.
+- Wireframes for all key features (e.g. map feature, seach & filter feature, add/update washroom feature) have been designed.
+- Although some less crucial pages (e.g. profile page, reviewing feature) were considered and can be implemented in the future, they have not been fleshed out in the LoFi design since they are not part of the scope of our requirements and task examples
 
 
 **Design Depth:**
 
-- We paid special attention to key aspects such as searching and viewing washroom details. Interactions on these pages are more complete and flow seamlessly between one another. 
+- We paid special attention to key aspects like the seach & filter feature, as well sa the add/update washroom feature. 
+- These features are essential to app functionality, and align with the requirements and user tasks (as per task examples)
+- Interactions on these pages are more complete and flow between each other to create a more complete workflow
 
-One key design decision we made was to add a toggle on the interface for looking at washroom features. This toggle allows users to switch between a more visual interface with icons and images representing the information, and a denser text-based interface. This was done to accommodate different user preferences and to make the app more accessible to a wider range of users. 
+**Design Decisions:**
 
-Another design decision made was to leverage positive transfer effect and utilize industry standard interactions such as screens sliding into frame from the right after a button is clicked and swiping from left to right to return to the previous page.
+1. Switching between visual and text based interface <br>
+We decided to both a visual and text based interface. The visual design relies on icons and images to represent the information. While the text based interface relies on text and text grouping to represent information. Presently, users can toggle between the two interfaces. This was done to accommodate different user preferences and to make the app more accessible to a wider range of users. 
+
+2. Aligning with user expectations <br>
+Another design decision made was to leverage positive transfer effect and utilize industry standard interactions such as screens sliding into frame from the right after a button is clicked and swiping from left to right to return to the previous page. Also, we discussed different ways that we could present washroom information (such as map view, list based, and 3D/AR representations) but ultimately decided to lean in to user expectations and limit the need for users to learn a new interface
 
 ---
 
