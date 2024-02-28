@@ -17,7 +17,7 @@ slug: project-update-2
 
 ---
 
-# Project Update 2
+# CPSC 444 L2B FacilityFinder - Blog Update #2
 
 This blog post will include some revisions to the task examples, based on our notes after running a field study. We will also discuss the progress we have made on the project so far, and our recommendations for the next steps. This post will also include the major requirements and user groups that we intend to focus on. Finally, we will propose a few design ideas and alternatives for the project. 
 

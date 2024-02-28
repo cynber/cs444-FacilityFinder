@@ -17,7 +17,7 @@ slug: project-update-1
 
 ---
 
-# Project Update 1
+# CPSC 444 L2B FacilityFinder - Blog Update #1
 
 This blog post will include the original project proposal, and the updates to the project direction. It will also include 3 task examples to illustrate the plan for the project.
 

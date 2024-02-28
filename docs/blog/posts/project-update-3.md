@@ -17,7 +17,7 @@ slug: project-update-3
 
 ---
 
-# Project Update 3
+# CPSC 444 L2B FacilityFinder - Blog Update #3
 
 This blog post will include a revision to the task examples, information about our low-fidelity prototype and cognitive walkthrough, and more thoughts on the overall goals of our experiment. 
 
