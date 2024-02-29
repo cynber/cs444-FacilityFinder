@@ -69,7 +69,11 @@ Other than this change, the task examples remain the same. Our task examples wen
 
 ## 3b. Low-Fidelity Prototype Demonstration
 
-PLACEHOLDER TODO: Add low-fidelity prototype demonstration
+Please see the following video for a demonstration of our low-fidelity prototype:
+
+Direct video link: [https://www.youtube.com/watch?v=QBxi8LbnUYE](https://www.youtube.com/watch?v=QBxi8LbnUYE)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QBxi8LbnUYE?si=65SNksjjwii3ued3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -77,7 +81,7 @@ PLACEHOLDER TODO: Add low-fidelity prototype demonstration
 
 ### **Prototype Justification**
 
-The chosen design of a mobile app supports all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Furthermore, apps have built-in update mechanism through the app stores. THus, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices. Additionally, since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
+The chosen design of a mobile app supports all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Furthermore, apps have built-in update mechanism through the app stores. Thus, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices. Additionally, since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
 
 As per our study findings, users all have different washroom needs and preferences. This design accounts for individual user preferences by allowing for detailed search and filtering. Also, it takes measures to categorize them for ease of use. Moreover, our study data found that maintaining an up-to-date source of information was a pain point for users who have more specific needs (such as gender neutral washrooms). Hence, our design focuses on the adding and udpating of washroom information as well.
 
