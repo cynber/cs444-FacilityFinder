@@ -34,7 +34,7 @@ This blog post will include a revision to the task examples, information about o
     
     Task Example 2: Karen
     
-    Karen is a parent taking photos of her son by the UBC fountain before his graduation ceremony. This is her first time on campus, so she is unfamiliar with the facilities. The ceremony is starting soon, so she wants to find a washroom nearby that she can access quickly without much walking since she is wearing uncomfortable shoes. Since it is a later in the day, she is not sure which buildings are open to the public and which ones need keycard access, such as those that are locked after a certain time. It would take some time to check each building for access and facilities, and she is not sure which one will be easiest to access for her. She can ask her son for directions, and he is able to direct her towards a building, but she does not know where to go after entering the building. She looks around for signs but finds none. Instead, she looks around for a floor map and finds an evacuation map that she uses to locate the washroom. 
+    Karen is a parent taking photos of her son by the UBC fountain before his graduation ceremony. This is her first time on campus, so she is unfamiliar with the facilities. The ceremony is starting soon, so she wants to find a washroom nearby that she can access quickly without much walking since she is wearing uncomfortable shoes. Since it is later in the day, she is not sure which buildings are open to the public and which ones need keycard access, such as those that are locked after a certain time. It would take some time to check each building for access and facilities, and she is not sure which one will be easiest to access for her. She can ask her son for directions, and he is able to direct her towards a building, but she does not know where to go after entering the building. She looks around for signs but finds none. Instead, she looks around for a floor map and finds an evacuation map that she uses to locate the washroom. 
     
     
     Task Example 3: Marie
@@ -57,7 +57,7 @@ Two of our task examples remain unchanged, but the second task example called "K
 
 #### **Explanation of Changes**
 
-We changed the context of the task example to be a wedding ceremony instead of a graduation ceremony. As graduation ceremonies typically have staff and volunteers to help guide guests, we wanted to make the task example more generalized by removing this support. Private weddings events and festivities are not likely to have UBC staff members to assist. This change should make the task example more representative of users that are unfamiliar with the campus and need to find a washroom quickly. We also removed the specific steps Karen took to complete the task, so that the task example would remain open to different solutions. 
+We changed the context of the task example to be a wedding ceremony instead of a graduation ceremony. As graduation ceremonies typically have staff and volunteers to help guide guests, we wanted to make the task example more generalized by removing this support. Private wedding events and festivities are not likely to have UBC staff members to assist. This change should make the task example more representative of users that are unfamiliar with the campus and need to find a washroom quickly. We also removed the specific steps Karen took to complete the task, so that the task example would remain open to different solutions. 
 
 <br> 
 
@@ -81,7 +81,7 @@ Direct video link: [https://www.youtube.com/watch?v=QBxi8LbnUYE](https://www.you
 
 ### **Prototype Justification**
 
-The chosen design of a mobile app supports all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Furthermore, apps have built-in update mechanism through the app stores. Thus, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices. Additionally, since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
+The chosen design of a mobile app supports all of our task examples. An app provides more flexibility and it can be used on the go, making it suitable for those who have limited time to find a washroom (e.g. Marie and Karen) as well as those who have time to explore. Furthermore, apps have built-in update mechanisms through the app stores. Thus, the app can be updated more quickly and easily to include new features or preferences that aren't currently accounted for. This would be more difficult and expensive with a stationary board or custom devices. Additionally, since UBC Vancouver provides both private and public Wi-Fi access, a mobile app can be easily downloaded by anyone on campus. For example, signs could be placed around campus with a QR code to direct the user to the app. 
 
 As per our study findings, users all have different washroom needs and preferences. This design accounts for individual user preferences by allowing for detailed search and filtering. Also, it takes measures to categorize them for ease of use. Moreover, our study data found that maintaining an up-to-date source of information was a pain point for users who have more specific needs (such as gender neutral washrooms). Hence, our design focuses on the adding and udpating of washroom information as well.
 
@@ -93,13 +93,13 @@ For this stage, while we considered exploring both breadth and depth of the desi
 
 **Design Breadth:**
 
-- Wireframes for all key features (e.g. map feature, seach & filter feature, add/update washroom feature) have been designed.
+- Wireframes for all key features (e.g. map feature, search & filter feature, add/update washroom feature) have been designed.
 - Although some less crucial pages (e.g. profile page, reviewing feature) were considered and can be implemented in the future, they have not been fleshed out in the LoFi design since they are not part of the scope of our requirements and task examples
 
 
 **Design Depth:**
 
-- We paid special attention to key aspects like the seach & filter feature, as well sa the add/update washroom feature. 
+- We paid special attention to key aspects like the search & filter feature, as well sa the add/update washroom feature. 
 - These features are essential to app functionality, and align with the requirements and user tasks (as per task examples)
 - Interactions on these pages are more complete and flow between each other to create a more complete workflow
 
@@ -166,7 +166,7 @@ For our experiment, there are a few goals that we would like to focus on. We hav
 
 2. **Do users prefer a visual or text-based interface?** 
     - This is the second most important goal for our experiment. We want to ensure that the app is accessible and useful for a diverse set of users. As such, we want to investigate the best way to convey the information.
-    - This is easy to test since it is already partially implemented in our low-fidelity prototype. For our evaluation, we will ask participants to complete tasks using both the visual and text-based interfaces, and then ask them which one they preferred.
+    - This is easy to test since it is already partially implemented in our low-fidelity prototype. For our evaluation, we will ask participants to complete tasks using both the visual and text-based interfaces, and then ask them which one they prefer.
 
 <br>
 
