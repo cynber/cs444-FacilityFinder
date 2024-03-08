@@ -1,11 +1,7 @@
-# Guide: Setting up a new MkDocs site
+# Installing and setting up MkDocs-Material
 
-!!! note "Note"
-
-    This guide is for setting up a new MkDocs site from scratch. 
-    
-    If you want to add a blog post, add a page, or otherwise modify this site, see the other guides in the sidebar.
-
+!!! tip
+    For full documentation visit [mkdocs.org](https://www.mkdocs.org)
 
 ## Setup MkDocs
 
@@ -13,33 +9,45 @@
 2. Set up a new MkDocs project: `mkdocs new .`
 3. When you want to see your changes, run `mkdocs serve` and go to the link it gives you. It will automatically update when you save changes to the files.
 
-## Setup GitHub Pages
+By default you the site will start with the basic MkDocs theme. To change it to the Material theme, and enable all the other cool features, you need to edit the `mkdocs.yml` file in the root of the project. Here is a basic example of what you might want to include:
 
-1. In the repository root, create the folders and file for this path: `.github/workflows/ci.yml`
-2. While you can copy the contents of the file from this repository, you're better off grabbing the latest version of the code from [the project site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/).
-3. Commit and push the changes to GitHub. This will trigger the GitHub Action to run through the steps in the file you just created. This includes installing the dependencies, building the site, and pushing the site to the (likely new) `gh-pages` branch.
-4. Go to the 'Actions' tab in your repository and wait for the action to finish. If it fails, you can click on the action to see the logs and figure out what went wrong. Assuming it succeeds, continue to the next step.
-5. Go to the 'Settings' tab in your repository and scroll down to the 'GitHub Pages' section. Change the 'Source' to  `Deploy from a branch`, and then set 'Branch' to `gh-pages` and click 'Save'. 
-6. After it finishes saving (and possibly building again), you should see a link to your website, either at the top of the 'GitHub Pages' section or on the homepage of the repo under 'Deployments'. It likely will follow the format: `https://<username>.github.io/<repository-name>/`. If you don't see it, wait a few minutes and refresh the page.
+``` YAML
+site_name: Boilerplate
+site_description: |
+  This is a boilerplate for a MkDocs site.
+repo_url: https://example.com/username/repo
+repo_name: username/repo
+
+# copyright: Copyright &copy; PLACEHOLDER
+  # uncomment and change to add a copyright message
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+
+extra:
+  generator: true  # false: hides 'Generated with MkDocs' message in footer
+```
+
+You can also see the `mkdocs.yml` file in the root of this repository for an example:
+
+??? example "Current version of the `mkdocs.yml` file in this repo"
+
+    ``` title="mkdocs.yml"
+    --8<-- "./documentation/mkdocs.yml"
+    ```
 
 
 
-## Other setup
 
-As this site is using a few extra plugins, you'll need to install them
+## Host your site on GitHub Pages
 
-`pip install mkdocs-glightbox`
+1. In the repository root, create the file: `.github/workflows/ci.yml` with the content from [the project site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/).
+2. Commit and push the changes to GitHub. This will trigger the GitHub Action to run through the steps in the file you just created (installing dependencies, building, and pushing the site to the `gh-pages` branch).
+3. On GitHub, go to `Actions` and wait for the action to finish. You can check the logs to see if there are any errors.
+4. On GitHub, go to `Settings` -> `GitHub Pages` and change the `Source` to  `Deploy from a branch` if it isn't already. You can then set the `Branch` to `gh-pages` and save. 
+5. After everything is completed, you should see a link to your website either at the top of the `GitHub Pages` section or on the homepage of the repo under `Deployments`. 
 
-    - this is a lightbox plugin for images
-
-<!-- `pip install "mkdocs-material[imaging]"`
-
-        # Windows installation is failing, skipping for now
-
-    - this is a plugin for resizing images and generating cards for social media -->
-
-`pip install mkdocs-rss-plugin`
-
-    - this is a plugin for generating an RSS feed for the blog
-
-You will also need to install 
+The link should follow the format: `https://<username>.github.io/<repository-name>/`. If you don't see it, wait a few minutes and refresh the page.

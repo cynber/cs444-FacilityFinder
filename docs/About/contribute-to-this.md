@@ -1,4 +1,26 @@
-# Making a blog post
+# Contribute to this site
+
+## Run locally
+
+1. Clone or fork this repository.
+2. Open the repository in your code editor and in the terminal, navigate to the root of the repository.
+3. Run `pip install mkdocs-material` to install MkDocs Material.
+4. Run each of the following to install the plugins that are being used:
+
+    ``` bash
+    pip install mkdocs-glightbox
+    pip install "mkdocs-material[imaging]"
+    pip install mkdocs-rss-plugin
+    ```
+
+5. Run `mkdocs serve` to start the live-reloading docs server.
+
+For common commands that you can use, see [this page](../config-guide/#commands).
+
+For the project layout, see [this page](../config-guide/#project-layout)
+
+## Make a blog post
+
 
 1. Create a new file in the `docs/blog/posts` folder.
 2. You will need to add metadata to the top of the file. See the [documentation here](https://squidfunk.github.io/mkdocs-material/plugins/blog/#metadata) for more information.

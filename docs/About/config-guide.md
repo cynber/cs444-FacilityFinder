@@ -1,8 +1,7 @@
-# Guide to project structure and configuration
+# Customizing MkDocs Material
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-Unique configurations for this project will be listed on this page.
+!!! tip
+    For full documentation visit [mkdocs.org](https://www.mkdocs.org)
 
 ## Commands
 
@@ -20,17 +19,102 @@ When editing the project locally, you can use the following CLI commands:
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-See the project repository to see how this project was configured.
+## Plugins & Extensions
 
-## Unique configuration changes
+!!! warning "Some plugins have extra steps"
 
-- To be added
+    Some plugins need to be installed. If you see a step in the documentation like this:
+
+    > pip install mkdocs-glightbox
+
+    This will affect the setup in a few different ways:
+
+    - You will need to install the plugin using the command provided on any local machine you are using to edit the project. If you don't you will see an error when you try to build the site with `mkdocs serve` or `mkdocs build`.
+
+    - You will need to modify the `.github/workflows/ci.yml` file to include the installation of the plugin for the live site. You can add the command near the end, above the `- run: pip install mkdocs-material` line.
 
 
+### **Recommended plugins:**
 
-# Credits
+You can paste this in if you'd like. Refer to the official documentation for each plugin to see what it does and how to use it. Some plugins are custom (ex. `git-revision-date-localized`), and you will need to find documentation for them.
 
-Created using [MkDocs-material](https://github.com/squidfunk/mkdocs-material)
+```yaml
+plugins:
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "Last updated: %B %d, %Y"
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+  - glightbox
+  - privacy
+  - search
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans
+      enabled: !ENV [CI, false]
+```
 
-**Images**:
-- [Compass Image - NOAA Central Library Historical Collections](https://commons.wikimedia.org/wiki/File:Compass_-_Book_jacket_of_%22A_Treatise_on_Navigation_and_Nautical_Astronomy.%22.jpg)
+
+### **Recommended Markdown extensions:**
+
+You can paste this in if you'd like:
+
+```yaml
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - sane_lists
+```
+
+### **Recommended theme options:**
+
+You can paste this in if you'd like:
+
+```yaml
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+  icon:
+    repo: fontawesome/brands/github
+```
