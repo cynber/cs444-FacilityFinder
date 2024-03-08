@@ -10,7 +10,7 @@
     ``` bash
     pip install mkdocs-glightbox
     pip install "mkdocs-material[imaging]"
-    pip install mkdocs-rss-plugin
+    pip install mkdocs-git-revision-date-localized-plugin
     ```
 
 5. Run `mkdocs serve` to start the live-reloading docs server.
@@ -66,5 +66,5 @@ This is the body of the blog post. It is written in Markdown.
 
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultricies nunc, quis ultricies nisl nunc eget nunc.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl...
 ```

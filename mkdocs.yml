@@ -8,19 +8,21 @@ repo_name: cynber/cs444-FacilityFinder
   # uncomment and change to add a copyright message
 
 plugins:
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "Last updated: %B %d, %Y"
+      fallback_to_build_date: true
+      exclude:
+        - index.md
   - search
   - glightbox
-  # - social      # windows installation is failing, disable for now
+  # - social:
+  #     cards_layout_options:
+  #       font_family: Noto Sans
+  #     enabled: !ENV [CI, false]
   - blog:
       post_readtime: true
       archive: false
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 nav:
   - Home: index.md
@@ -37,14 +39,19 @@ nav:
 
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - md_in_html
   - sane_lists
 
 theme:
@@ -77,6 +84,8 @@ theme:
     - navigation.indexes
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.code.select
   icon:
     repo: fontawesome/brands/github
 
