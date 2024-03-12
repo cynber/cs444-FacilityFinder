@@ -213,7 +213,7 @@ Since we will have multiple comparisons, we will use the **Bonferroni correction
 
 There are a few limitations that we expect to encounter in our experiment. These include:
 
-- **Small sample size:** We are aiming to recruit 8-12 participants, which is a small sample size. This may limit the generalizability of our results.
+- **Small Sample Size:** We are aiming to recruit 8-12 participants, which is a small sample size. This may limit the generalizability of our results.
 - **Private Setting:** As this experiment is about behaviour in a traditionally private setting, participant behaviour may be slightly different from the natural behaviour.
 - **Participant Fatigue:** Since there are 3 conditions, the participants may become tired over the course of the experiment.
 - **Learning Effects:** While we are counterbalancing the order of the conditions, learning effects may still be a problem due to the small sample size.
@@ -230,8 +230,8 @@ See below for links to the supplementary materials for our experiment.
 
 | Material | Link |
 | --- | --- |
-| **Observation Sheet** | [download PDF](../../assets/files/blog/posts/project-update-4/ObservationSheet.pdf) |
-| **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/Script.pdf) |
+| **Observation Sheet** | [download PDF](../../assets/files/blog/posts/project-update-4/observation-sheet.pdf) |
+| **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/script.pdf) |
 | **Recruitment Survey** | [ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2](https://ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2) |
 | Experiment Survey | [ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia](https://ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia) |
 | Baseline Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=0%3A1&type=design&node-id=2-4&viewport=281%2C-65%2C0.2&t=96oK8zH5KjIHaoKH-1&scaling=scale-down&starting-point-node-id=2%3A4&mode=design) |
