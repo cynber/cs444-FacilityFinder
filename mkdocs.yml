@@ -8,12 +8,12 @@ repo_name: cynber/cs444-FacilityFinder
   # uncomment and change to add a copyright message
 
 plugins:
-  - git-revision-date-localized:
-      type: custom
-      custom_format: "Last updated: %B %d, %Y"
-      fallback_to_build_date: true
-      exclude:
-        - index.md
+  # - git-revision-date-localized:
+  #     type: custom
+  #     custom_format: "Last updated: %B %d, %Y"
+  #     fallback_to_build_date: true
+  #     exclude:
+  #       - index.md
   - search
   - glightbox
   # - social:
@@ -23,6 +23,7 @@ plugins:
   - blog:
       post_readtime: true
       archive: false
+      draft: true
 
 nav:
   - Home: index.md
