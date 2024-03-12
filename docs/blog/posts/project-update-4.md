@@ -11,7 +11,7 @@ categories:
 
 date: 2024-03-11
 
-draft: true
+draft: false
 
 slug: project-update-4
 
@@ -231,7 +231,7 @@ See below for links to the supplementary materials for our experiment.
 | Material | Link |
 | --- | --- |
 | **Observation Sheet** | [download PDF](../../assets/files/blog/posts/project-update-4/observation-sheet.pdf) |
-| **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/script.pdf) |
+| **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/experiment-script.pdf) |
 | **Recruitment Survey** | [ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2](https://ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2) |
 | Experiment Survey | [ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia](https://ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia) |
 | Baseline Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=0%3A1&type=design&node-id=2-4&viewport=281%2C-65%2C0.2&t=96oK8zH5KjIHaoKH-1&scaling=scale-down&starting-point-node-id=2%3A4&mode=design) |

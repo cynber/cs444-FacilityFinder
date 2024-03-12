@@ -17,7 +17,7 @@
 
 For common commands that you can use, see [this page](config-guide.md#commands).
 
-For the project layout, see [this page](../config-guide#project-layout).
+For the project layout, see [this page](config-guide.md#project-layout).
 
 ## Make a blog post
 
