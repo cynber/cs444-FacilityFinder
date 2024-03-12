@@ -24,4 +24,3 @@ This blog post will be about the medium-fidelity prototyping for our project. It
 <!-- more -->
 
 PLACEHOLDER
-
