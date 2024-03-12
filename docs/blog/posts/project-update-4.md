@@ -232,8 +232,9 @@ See below for links to the supplementary materials for our experiment.
 | --- | --- |
 | **Observation Sheet** | [download PDF](../../assets/files/blog/posts/project-update-4/observation-sheet.pdf) |
 | **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/experiment-script.pdf) |
+| **Consent Form** | [download PDF](../../assets/files/blog/posts/project-update-4/consent-form.pdf) |
 | **Recruitment Survey** | [ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2](https://ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2) |
 | Experiment Survey | [ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia](https://ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia) |
-| Baseline Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=0%3A1&type=design&node-id=2-4&viewport=281%2C-65%2C0.2&t=96oK8zH5KjIHaoKH-1&scaling=scale-down&starting-point-node-id=2%3A4&mode=design) |
-| Points-Only Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2045%3A3842&type=design&node-id=2045-3845&viewport=224%2C164%2C0.17&t=Y9tWQGOrfFKXdOdh-1&scaling=scale-down&starting-point-node-id=2045%3A3845&mode=design) |
-| Points-and-Achievements Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2036%3A3278&type=design&node-id=2036-3281&viewport=228%2C150%2C0.18&t=x4fUjOoeVZnx1oKW-1&scaling=scale-down&starting-point-node-id=2036%3A3281&mode=design) |
+| **Baseline Figma** | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=0%3A1&type=design&node-id=2-4&viewport=281%2C-65%2C0.2&t=96oK8zH5KjIHaoKH-1&scaling=scale-down&starting-point-node-id=2%3A4&mode=design) |
+| **Points-Only Figma** | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2045%3A3842&type=design&node-id=2045-3845&viewport=224%2C164%2C0.17&t=Y9tWQGOrfFKXdOdh-1&scaling=scale-down&starting-point-node-id=2045%3A3845&mode=design) |
+| **Points-and-Achievements Figma** | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2036%3A3278&type=design&node-id=2036-3281&viewport=228%2C150%2C0.18&t=x4fUjOoeVZnx1oKW-1&scaling=scale-down&starting-point-node-id=2036%3A3281&mode=design) |
