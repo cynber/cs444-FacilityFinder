@@ -48,4 +48,8 @@ The prototype will be created using Figma.
 
 ## 5b. Prototype Demonstration
 
+Please see below for a demonstration and discussion of our medium-fidelity prototype.
 
+<!-- Direct video link: [https://www.youtube.com/watch?v=QBxi8LbnUYE](https://www.youtube.com/watch?v=QBxi8LbnUYE)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QBxi8LbnUYE?si=65SNksjjwii3ued3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

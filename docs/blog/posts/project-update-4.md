@@ -101,13 +101,10 @@ There will be **3 conditions** in our experiment. Each condition will represent 
 
 ### 4b.3. Experimental Tasks
 
-Participants will be asked to complete the following:
+Users will be asked to complete the following: 
 
-1. **Add information to a listing**
-2. **Explore washrooms in building X. Go to washroom Y.** 
-3. **You’re at fountain, navigate to a washroom. Feel free to explore the prototype as much or little as you want.** 
-
-For task #2, the participants will not be prompted to add info to washroom listings, but we will note if they do so. For task #3, we will note any interesting behaviors.
+1. Navigate to a washroom using the app. Users may explore the prototype as desired at this stage.
+2. Users will be presented with a situation in which there is a mismatch between the app data and reality. Their actions and reactions will be observed.   
 
 
 
@@ -117,9 +114,9 @@ For task #2, the participants will not be prompted to add info to washroom listi
 
 ### 4b.4. Design
 
-This experiment will be a **within-subject design**. Each participant will complete the tasks in each of the 3 conditions.
+This experiment will be a **within-subject design**. Each participant will complete the tasks in each of the 3 conditions. 
 
-Thus there will be one independent variable (IV) with 3 conditions.
+Thus, there will be one independent variable (IV) with 3 conditions. These conditions will be counterbalanced when presented to participants.  
 
 
 
@@ -128,12 +125,12 @@ Thus there will be one independent variable (IV) with 3 conditions.
 
 ### 4b.5. Procedure
 
-1. **Recruitment:** Participants will first respond to a **demographic survey**. This will include questions about age, status (student, staff, etc.), gender identity, physical ability, and familiarity with the UBC Vancouver campus.
-2. **Prep Task:** Participants will be asked to physically visit a washroom before the experiment begins. They will need to be cricital, and remember anything that is interesting, unique, or desirable about the washroom.
-3. **Prototype:** Participants will then explore the prototype and complete the tasks in one of the 3 conditions. They will be asked to think aloud to the researcher in person. The researcher will take notes and write down relevant time stamps.
-4. **Survey:** Participants will complete a self-report survey on their experience with the prototype.
-5. Steps 3 and 4 will be repeated for the other 2 conditions.
-6. **Debriefing:** The Participants will go through a closing survey, be debriefed, and thanked for their time.
+1. **Recruitment:** Users will first respond to a **demographic survey**. This will include questions about age, gender identity, disability, and familiarity with the UBC Vancouver campus. Users will be recruited through a combination of **quota sampling** and **snowball sampling**. 
+2.  **Prep:** Users will be asked to enter a Zoom call with a facilitator while they share their screen. They will be sent a link to a survey which they will go through while the facilitator observes. 
+3. **Prototype:** The survey will contain a link to the prototype along with task instructions. Users will explore the prototype and complete the tasks in one of the 3 conditions. The conditions will be presented in a randomized order for each experiment. They will be asked to think aloud to the researcher. The researcher will take notes and write down relevant time stamps. 
+4. **Survey:** Users will complete a self-report section in the survey on their experience with the prototype. 
+5. **Repeat:** Steps 3 and 4 will be repeated for the other 2 conditions. 
+6. **Debriefing:** The users will go through a closing survey, be debriefed, and thanked for their time.
 
 
 
@@ -162,13 +159,19 @@ The method of gamification used to motivate participants to add/update washroom 
 
 **Dependent Variables (DV):**
 
-- Participant condition preference (self-reported selection)
-- Effectiveness of condition (observed)
-    - Number of times participants add/update washroom
+Self-Report:
+
+- User condition preference
+- User frustration
+
+Observed:
+
+- Effectiveness of the conditions
+    - Number of times users add or update washroom data
 - Time spent per condition
-- Participant frustration/discomfort (both observed & self-reported)
-    - Erroneous clicks (observed)
-    - Amount of effort to use (from scale)
+    - Proportion of time spent exploring vs adding/updating washroom
+- User frustration and discomfort
+- Erroneous clicks
 
 
 
@@ -183,7 +186,7 @@ The method of gamification used to motivate participants to add/update washroom 
 ---
 
 - **H2:** Participants spend the least amount of time exploring in the `No-Points` condition prototype.
-**Null:** Participants do not spend the least amount of time exploring in the `No-Points` condition prototype, compared to the other conditions.
+- **Null:** Participants do not spend the least amount of time exploring in the `No-Points` condition prototype, compared to the other conditions.
 
 ---
 
@@ -213,7 +216,7 @@ There are a few limitations that we expect to encounter in our experiment. These
 - **Small sample size:** We are aiming to recruit 8-12 participants, which is a small sample size. This may limit the generalizability of our results.
 - **Private Setting:** As this experiment is about behaviour in a traditionally private setting, participant behaviour may be slightly different from the natural behaviour.
 - **Participant Fatigue:** Since there are 3 conditions, the participants may become tired over the course of the experiment.
-- **Learning Effects:** While we are counterbalancing the order of the conditions, learning effects may still be a problem.
+- **Learning Effects:** While we are counterbalancing the order of the conditions, learning effects may still be a problem due to the small sample size.
 
 
 
@@ -224,3 +227,13 @@ There are a few limitations that we expect to encounter in our experiment. These
 ## 4c. Supplementary Experiment Materials
 
 See below for links to the supplementary materials for our experiment.
+
+| Material | Link |
+| --- | --- |
+| **Observation Sheet** | [download PDF](../../assets/files/blog/posts/project-update-4/ObservationSheet.pdf) |
+| **Script** | [download PDF](../../assets/files/blog/posts/project-update-4/Script.pdf) |
+| **Recruitment Survey** | [ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2](https://ubc.ca1.qualtrics.com/jfe/form/SV_1MottkHPwzHuoS2) |
+| Experiment Survey | [ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia](https://ubc.ca1.qualtrics.com/jfe/form/SV_1EOKhOf5AgJRiia) |
+| Baseline Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=0%3A1&type=design&node-id=2-4&viewport=281%2C-65%2C0.2&t=96oK8zH5KjIHaoKH-1&scaling=scale-down&starting-point-node-id=2%3A4&mode=design) |
+| Points-Only Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2045%3A3842&type=design&node-id=2045-3845&viewport=224%2C164%2C0.17&t=Y9tWQGOrfFKXdOdh-1&scaling=scale-down&starting-point-node-id=2045%3A3845&mode=design) |
+| Points-and-Achievements Figma | [figma.com/proto/...](https://www.figma.com/proto/aKPPMJovJM0VdK9qd7sGqZ/Mid-Fi-Design?page-id=2036%3A3278&type=design&node-id=2036-3281&viewport=228%2C150%2C0.18&t=x4fUjOoeVZnx1oKW-1&scaling=scale-down&starting-point-node-id=2036%3A3281&mode=design) |
