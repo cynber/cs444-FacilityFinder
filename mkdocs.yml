@@ -1,20 +1,19 @@
 site_name: Facility Finder
 site_description: |
   This is the 'Facility Finder' project website for CPSC 444.
-repo_url: https://github.com/cynber/cs444-FacilityFinder/
-repo_name: cynber/cs444-FacilityFinder
-
-# copyright: Copyright &copy; PLACEHOLDER
-  # uncomment and change to add a copyright message
+# repo_url: https://github.com/cynber/cs444-FacilityFinder/
+# repo_name: cynber/cs444-FacilityFinder
 
 plugins:
-  # - git-revision-date-localized:
-  #     type: custom
-  #     custom_format: "Last updated: %B %d, %Y"
-  #     fallback_to_build_date: true
-  #     exclude:
-  #       - index.md
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "Last updated: %B %d, %Y"
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+        - blog/*
   - search
+  # - privacy
   - glightbox
   # - social:
   #     cards_layout_options:
@@ -24,18 +23,24 @@ plugins:
       post_readtime: true
       archive: false
       draft: true
+      categories: true
+      categories_name: Post Categories
+      categories_allowed:
+        - Project Update
+        - CPSC 444
 
 nav:
   - Home: index.md
   - Blog:
     - blog/index.md
   - Guides:
-    - Modify this site: ./About/contribute-to-this.md
+    - Modify this site: 
+      - Overview: ./About/contribute-to-this.md
     - Setup a new site:
       - Installation: ./About/setup-guide.md
       - Site Configuration: ./About/config-guide.md
       - Blog Setup: ./About/blog-setup-config.md
-
+  - About:
     - Credits: ./About/credits.md
 
 
@@ -44,6 +49,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -55,9 +63,15 @@ markdown_extensions:
       alternate_style: true
   - sane_lists
 
+
 theme:
   name: material
   language: en
+  favicon: assets/img/droplet-solid.svg
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/droplet
+  custom_dir: docs/overrides
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -87,20 +101,10 @@ theme:
     - search.highlight
     - content.code.copy
     - content.code.select
-  icon:
-    repo: fontawesome/brands/github
+
 
 extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/cynber/cs444-FacilityFinder
-    - icon: simple/rss
-      link: /feed_rss_created.xml
-      name: RSS
-    # - icon: fontawesome/brands/youtube 
-    #   link: https://example.com
-    # - icon: fontawesome/brands/mastodon 
-    #   link: https://example.com
-    # - icon: fontawesome/brands/instagram 
-    #   link: https://example.com
-  generator: false  # set to false to hide the 'Generated with MkDocs' footer
+  generator: false
